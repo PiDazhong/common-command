@@ -544,6 +544,8 @@ function choose_icon() {
     echo "(5) Pro Display XDR"
     echo "(6) ${langNotChange}"
     echo ""
+    echo ""
+    echo "请输入显示器ICON类型："
 
     read -p "${langInputChoice} [1~6]: " logo
     case ${logo} in
